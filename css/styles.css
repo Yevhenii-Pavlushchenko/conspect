@@ -272,3 +272,6 @@ font-weight: 400;
     letter-spacing: -0.02em;
     text-align: center;
 }
+.nav-footer{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
