@@ -1,6 +1,9 @@
 /* Base styles */
 body{
-    font-family: "Montserat", sans-sefir;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #111;
+    background-color: #fafafa;;
 }
 button{
   font-family: inherit;  
@@ -29,4 +32,243 @@ a{
     text-decoration: none;
 }
 /* class styles */
+.link-header{
+    font-style: italic;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
+}
+.nav-item{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+}
+/* Hero */
+.hero{
+    border-radius: 30px;
+        padding: 380px 40px 40px;
+        width: 1136px;
+        height: 599px;
+    background-color:rgba(17, 17, 17, 0.4);
+}
+.hero-title{
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+.btn-buy{
+    border-radius: 100px;
+        padding: 14px 40px;
+        width: 144px;
+        height: 45px;
+        color: #fff;
+        border: none;
+        background-color: #fd9222;
+            
+}
+.btn-how{
+      
+    border: 1px solid #fff;
+        border-radius: 100px;
+        padding: 14px 40px;
+        width: 183px;
+        height: 45px;
+        color: #fff;
+        background-color: rgba(17, 17, 17, 0.4);
+    }
+
+.accent{
+   color: #fd9222;
+}
+.scroll-down{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.03em;
+        color: #fff;
+        
+}
+.scroll-btn{
+    background-color: #fff;
+}
+/* benefits */
+.benefits{
+    background-color: #1e1823;
+    padding: 50px 0px;
+}
+.benefits-title {
+font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.benefits-text{
+line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* Adds */
+
+.section-title{
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+.add-item{
+    border-radius: 15px;
+    width: 260px;
+    height: 270px;
+    background-color: #fd9222;
+    text-align: center;
+}
+.add-item-text{
+    font-weight: 600;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #fff;
+}
+.white-item{
+    background-color: #fff;
+    border: 1px solid #fd9222;
+}
+.text-dark{
+    color:#111;
+}
+.dark-item{
+    background-color:#1e1823; ;
+}
+/* Made */
+.made-title{
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 133%;
+}
+.made-text{
+    font-weight: 400;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+
+}
+/* Proructs */
+.products-item{
+border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 270px;
+    height: 364px;
+    background-color: #fff;
+    
+}
+.products-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.products-item-text{
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        color: rgba(17, 17, 17, 0.7);
+}
+.products-btn{
+    font-weight: 600;
+    font-size: 12px;
+    color: #111;
+    padding: 8px 20px;
+    width: 94px;
+    height: 33px;
+    background: #fafafa;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 100px;
+}
+/* sellers */
+.sellers-item{
+    border-radius: 15px;
+        width: 368px;
+        height: 544px;
+        background-color: #fff;
+
+}
+.sellers-title{
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+}
+
+/* Reviews */
+.reviews-items {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 15px;
+        width: 360px;
+        height: 200px;
+        box-shadow: 0 10px 100px 0 rgba(17, 17, 17, 0.1);
+            background: #fff;
+}
+.reviews-named{
+font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+}
+
+.reviews-text{
+font-weight: 400;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+.review-btn{
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #fd9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 222px;
+    height: 50px;
+}
+/* Footer */
+.footer{
+    background-color: #1e1823;
+    color: #fff;
+}
+.footer-title{
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.02em;
+}
+.social-title{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+}
+.adress-title{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+}
+.adress-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
