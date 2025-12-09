@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Kukuruzka</title>
   </head>
   <body>
     <!-- навігація -->
-    <header>
+    <header class="page-header">
       <a href="./index.html"
         >Simply Chocolate
         <img src="./img/icons/chocolate.svg" alt="" />
@@ -21,7 +28,7 @@
       </nav>
       <ul class="social">
         <li>
-          <a href=""
+          <a href="facebook.com" aria-label="facebook.com" target="_blank"
             ><img
               src="./img/icons/facebook.svg"
               alt="facebook"
@@ -30,7 +37,7 @@
           /></a>
         </li>
         <li>
-          <a href=""
+          <a href="instagram.com" aria-label="instagram" target="_blank"
             ><img
               src="./img/icons/instagram.svg"
               alt="instagram"
@@ -39,7 +46,7 @@
           /></a>
         </li>
         <li>
-          <a href=""
+          <a href="twitter.com" aria aria-label="twitter" target="_blank"
             ><img
               src="./img/icons/twitter.svg"
               alt="twitter"
@@ -56,12 +63,21 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!v
         </h1>
-        <button>Buy now</button>
-        <button>How it’s made</button>
-        <a href="">scroll down</a>
+        <button type="button">Buy now</button>
+        <button type="button">How it’s made</button>
+        <a href="#"
+          >scroll down
+          <img
+            src="./img/icons/scroll-down.png"
+            alt="xxx"
+            width="22"
+            height="22"
+        /></a>
       </section>
-      <!-- About -->
-      <section>
+      <!-- Benefits -->
+      <section class="benefits">
+        <!-- h2 only reader -->
+        <h2 class="visually-hidden">Benefits about chocolate</h2>
         <ul>
           <li>
             <h3>Unsurpassed</h3>
@@ -95,22 +111,33 @@
       </section>
       <!-- Adds -->
       <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
+        <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
         <ul>
           <li>
             <img
               src="./img/ingridiends/milk-chokolate.png"
               alt="CHOCOLATE"
               width="214"
+              height="160"
             />
             <p>CHOCOLATE</p>
           </li>
           <li>
-            <img src="./img/ingridiends/milk.png" alt="MILK" width="214" />
+            <img
+              src="./img/ingridiends/milk.png"
+              alt="MILK"
+              width="214"
+              height="160"
+            />
             <p>MILK</p>
           </li>
           <li>
-            <img src="./img/ingridiends/nuts.png" alt="NUTS" width="214" />
+            <img
+              src="./img/ingridiends/nuts.png"
+              alt="NUTS"
+              width="214"
+              height="160"
+            />
             <p>NUTS</p>
           </li>
           <li>
@@ -118,11 +145,17 @@
               src="./img/ingridiends/sweetchok.png"
               alt="SEMI - SWEET CHOCOLATE"
               width="214"
+              height="160"
             />
             <p>SEMI - SWEET CHOCOLATE</p>
           </li>
           <li>
-            <img src="./img/ingridiends/cacao.png" alt="CACAO" width="214" />
+            <img
+              src="./img/ingridiends/cacao.png"
+              alt="CACAO"
+              width="214"
+              height="160"
+            />
             <p>CACAO</p>
           </li>
           <li>
@@ -130,6 +163,7 @@
               src="./img/ingridiends/rasberry.png"
               alt="RASPBERRY"
               width="214"
+              height="160"
             />
             <p>RASPBERRY</p>
           </li>
@@ -138,6 +172,7 @@
               src="./img/ingridiends/coconut.png"
               alt="COCONUT"
               width="214"
+              height="160"
             />
             <p>COCONUT</p>
           </li>
@@ -178,6 +213,7 @@
               src="./img/products/orange.jpg"
               alt="Orange chocolate "
               width="230"
+              height="201"
             />
             <h3>Orange</h3>
             <p>Dark chocolate</p>
@@ -188,6 +224,7 @@
               src="./img/products/apple-berry.jpg"
               alt="Apple&Cranberry chocolate"
               width="230"
+              height="201"
             />
             <h3>Apple&Cranberry</h3>
             <p>Milk chocolate</p>
@@ -198,6 +235,7 @@
               src="./img/products/salt-lime.jpg"
               alt="Lime&Sea salt chocolate"
               width="230"
+              height="201"
             />
             <h3>Lime&Sea salt</h3>
             <p>Dark chocolate</p>
@@ -208,6 +246,7 @@
               src="./img/products/pineapple.jpg"
               alt="Pineapple chocolate"
               width="230"
+              height="201"
             />
             <h3>Pineapple</h3>
             <p>Dark chocolate</p>
@@ -218,6 +257,7 @@
               src="./img/products/classic.jpg"
               alt="Classic chocolate"
               width="230"
+              height="201"
             />
             <h3>Classic</h3>
             <p>Milk chocolate</p>
@@ -228,6 +268,7 @@
               src="./img/products/honey.jpg"
               alt="Honey chocolate"
               width="230"
+              height="201"
             />
             <h3>Honey</h3>
             <p>Milk chocolate</p>
@@ -238,6 +279,7 @@
               src="./img/products/roasted-fruits.jpg"
               alt="Roasted fruits chocolate"
               width="230"
+              height="201"
             />
             <h3>Roasted fruits</h3>
             <p>Dark chocolate</p>
@@ -248,6 +290,7 @@
               src="./img/products/classik-white.jpg"
               alt="Classic chocolate"
               width="230"
+              height="201"
             />
             <h3>Classic</h3>
             <p>White chocolate</p>
