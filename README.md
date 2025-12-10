@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+Project Conspect: in this project, my classwork (project chocolate)!
