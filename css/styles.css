@@ -189,22 +189,27 @@ padding-bottom: 80px;
 
 .link-scroll{
     display: inline-flex;
+    align-items: center;
 }
 .scroll-down{
+   
     font-weight: 500;
         font-size: 14px;
         line-height: 129%;
         letter-spacing: -0.03em;
         color: #fff;
+        margin-right: 14px;
+     
         
 }
 .link-scroll-span{
+    display: flex;
     width: 38px;
     height: 38px;
     background-color: #fff;
     border-radius: 50%;
     justify-content: center;
-    align-items: center;
+        align-items: center;
 }
 
 /* benefits */
@@ -281,10 +286,27 @@ line-height: 129%;
     background-color:#1e1823; ;
 }
 /* Made */
+
+.made-wraper{
+    display: flex;
+}
+.made-img{
+   margin-right: 20px; 
+}
+.made-card{
+    padding: 32px;
+    border-radius: 15px;
+    background-color: var(--color-base-white);
+}
+.made-list-item:not(:last-child){
+    margin-bottom: 24px;
+}
 .made-title{
     font-weight: 600;
         font-size: 18px;
         line-height: 133%;
+        margin-bottom: 28px;
+        max-width: 350px;
 }
 .made-text{
     font-weight: 400;
@@ -293,13 +315,22 @@ line-height: 129%;
 
 }
 /* Proructs */
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    row-gap: 24px;
+}
 .products-item{
-border: 1px solid rgba(17, 17, 17, 0.1);
+    border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
     width: 270px;
     height: 364px;
     background-color: #fff;
     padding: 28px 23px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     
 }
 .products-item-title {
@@ -308,6 +339,7 @@ border: 1px solid rgba(17, 17, 17, 0.1);
     line-height: 133%;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-top: 8px;
 }
 
 .products-item-text{
@@ -316,8 +348,10 @@ border: 1px solid rgba(17, 17, 17, 0.1);
         line-height: 117%;
         letter-spacing: -0.02em;
         color: rgba(17, 17, 17, 0.7);
+        margin-bottom: 18px;
 }
 .products-btn{
+
     font-weight: 600;
     font-size: 12px;
     color: #111;
@@ -327,21 +361,38 @@ border: 1px solid rgba(17, 17, 17, 0.1);
     background: #fafafa;
         border: 1px solid rgba(17, 17, 17, 0.1);
         border-radius: 100px;
+        margin: 0 auto;
+
+
+
 }
 /* sellers */
+.sellers-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
 .sellers-item{
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
+        overflow: hidden;
         width: 368px;
-        height: 544px;
+
         background-color: #fff;
 
 }
 .sellers-title{
-    font-weight: 600;
+    padding: 28px;
         font-size: 18px;
-        line-height: 133%;
-        letter-spacing: -0.02em;
+        font-weight: 600;
+        line-height: 1.33;
         text-transform: uppercase;
+        text-align: center;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-top: none;
+        border-radius: 0 0 15px 15px;
+        background: #fff;
+        
 }
 
 /* Reviews */
