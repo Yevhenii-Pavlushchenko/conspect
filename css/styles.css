@@ -79,6 +79,7 @@ img{
 
 
 /* class styles */
+
 .page-header{
     display: flex;
     padding: 28px ;
@@ -126,6 +127,9 @@ img{
 }
 
 /* Hero */
+.hero{
+
+}
 .hero-wrapper{
     border-radius: 30px;
     padding: 380px 40px 40px;
