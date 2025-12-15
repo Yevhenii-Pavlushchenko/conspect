@@ -241,14 +241,17 @@
             How it’s <span class="accent">made</span>?
           </h2>
           <div class="made-wraper">
-            <img
-              class="made-img"
-              src="./img/made.jpg"
-              alt="made chocolate"
-              width="600"
-              height="400"
-            />
-            <div class="made-card">
+            <div class="made-left">
+              <img
+                class="made-img"
+                src="./img/made.jpg"
+                alt="made chocolate"
+                width="600"
+                height="400"
+              />
+            </div>
+
+            <div class="made-right">
               <h3 class="made-title">
                 Try our chocolates today and discover the perfect balance of
                 flavor
@@ -411,12 +414,13 @@
       <!--Reviews-->
       <section class="review section">
         <div class="container">
-          <h2 class="section-title">
+          <h2 class="section-title review-title">
             <span class="accent">Chocolate</span> is loved
           </h2>
-          <ul>
+          <ul class="review-list">
             <li class="reviews-items">
               <img
+                class="review-img"
                 src="./img/victoria-dobrzhanska.jpg"
                 alt="Reviews photo"
                 width="80"
@@ -430,6 +434,7 @@
             </li>
             <li class="reviews-items">
               <img
+                class="review-img"
                 src="./img/nazar-babenko.jpg"
                 alt="Reviews photo"
                 width="80"
@@ -444,6 +449,7 @@
             </li>
             <li class="reviews-items">
               <img
+                class="review-img"
                 src="./img/olena-kampusch.jpg"
                 alt="Reviews photo"
                 width="80"
@@ -464,7 +470,9 @@
     <!-- Footer -->
     <footer class="footer section">
       <div class="container">
-        <h3 class="footer-title">Chocolate a delicious cure for a bad day</h3>
+        <h3 class="footer-title">
+          <span class="accent"> Chocolate</span> a delicious cure for a bad day
+        </h3>
         <div>
           <h4 class="social-title">Social networks</h4>
           <ul class="social">
@@ -496,24 +504,27 @@
               /></a>
             </li>
           </ul>
+          <address>
+            <h4 class="adress-title">Contact us</h4>
+            <ul>
+              <li class="adress-item">
+                <a href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
+              </li>
+              <li class="adress-item">
+                <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+              </li>
+            </ul>
+          </address>
         </div>
-        <address>
-          <h4 class="adress-title">Contact us</h4>
-          <ul>
-            <li class="adress-item">
-              <a href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
-            </li>
-            <li class="adress-item">
-              <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
-            </li>
-          </ul>
-        </address>
+
         <nav class="nav-footer">
-          <ul>
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">How it’s made?</a></li>
-            <li class="nav-item"><a href="#">Chocolate is loved</a></li>
-          </ul>
+          <div class="footer-bottom">
+            <ul>
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">How it’s made?</a></li>
+              <li class="nav-item"><a href="#">Chocolate is loved</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </footer>
