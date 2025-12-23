@@ -124,6 +124,11 @@ img{
 .nav-item-link{
     padding: 24px 0 ;
 }
+
+.nav-item-link:hover,
+.nav-item-link:focus{
+    color: #fd9222;
+}
 .social{
     display: flex;
 }
@@ -137,6 +142,7 @@ img{
 .social-links{
 padding: 28px;
 }
+
 
 /* Hero */
 .hero{
@@ -179,6 +185,12 @@ padding-bottom: 80px;
         background-color: #fd9222;
         margin-right: 14px;
 }
+.btn-buy:hover,
+.btn-buy:focus{
+    background: #fcf1e0;
+    color: #fd9222;
+}
+
 .btn-how{
       
         border: 1px solid #fff;
@@ -189,6 +201,12 @@ padding-bottom: 80px;
         color: #fff;
         background-color: rgba(17, 17, 17, 0.1);
     }
+
+.btn-how:hover,
+.btn-how:focus {
+    border-color: #fd9222;
+    color: #fd9222;
+}
 
 .accent{
    color: #fd9222;
@@ -482,6 +500,12 @@ font-weight: 400;
     padding: 14px 40px;
     width: 222px;
     height: 50px;
+
+}
+
+.review-btn:hover {
+    background-color: #fd9222;
+    color: #fff;
 
 }
 /* Footer */
