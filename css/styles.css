@@ -567,16 +567,37 @@ font-weight: 400;
 .footer{
     background-color: #1e1823;
     color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.footer-up-side{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+
+.wraper-social-adress{
+    display: flex;
     gap: 50px;
 }
+
+.footer-social-wraper{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .footer-title{
     font-weight: 500;
         font-size: 28px;
         line-height: 121%;
         letter-spacing: -0.02em;
         max-width: 300px;
+        margin-right: 100px
+
 }
 
 .footer-social-list{
@@ -586,7 +607,7 @@ font-weight: 400;
         font-weight: 500;
         font-size: 14px;
         line-height: 129%;
-        margin-right: auto;
+        margin-bottom: 14px;
 }
 
 .footer-social-item:hover .footer-icon-social,
@@ -601,10 +622,24 @@ font-weight: 400;
         padding: 8px;
     fill: #fafafa;
 }
+
+
+.address{
+   
+}
+
 .adress-title{
     font-weight: 500;
         font-size: 14px;
         line-height: 129%;
+        margin-bottom:14px;
+}
+
+.adress-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px; 
 }
 .adress-item{
     font-weight: 400;
@@ -613,6 +648,48 @@ font-weight: 400;
     letter-spacing: -0.02em;
     text-align: center;
 }
-.nav-footer{
+
+
+.footer-bottom-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 24px;
+}
+.nav-footer{
+   
+}
+.nav-footer-list{
+    display: flex;
+    gap: 24px;
+}
+.subscribe-wraper{
+    display: flex;
+
+}
+
+.subscribe-input{
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 122%;
+        letter-spacing: -0.02em;
+        border: 1.50px solid rgba(255, 255, 255, 0.15);
+         border-radius: 30px;
+        padding: 13px 24px;
+        margin-right: 8px;
+         width: 313px;
+         height: 52px;
+}
+
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+        padding: 17px 40px;
+        color: #fff;
+        width: 137px;
+        height: 52px;
+        background-color: #fd9222;
 }

@@ -780,13 +780,15 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer section" id="footer">
-      <div class="container">
-        <h3 class="footer-title">
+    <footer class="footer " id="footer">
+   <div class="container">
+     <div class="footer-up-side">
+          <h3 class="footer-title">
           <span class="accent"> Chocolate</span> a delicious cure for a bad day
-        </h3>
-        <div>
-          <h4 class="social-title">Social networks</h4>
+          </h3>
+          <div class="wraper-social-adress">
+            <div class="footer-social-wraper">
+               <h4 class="social-title">Social networks</h4>
           <ul class="social footer-social-list">
             <li class="footer-social-item"> 
               <a href=""
@@ -809,9 +811,10 @@
                 </svg></a>
             </li>
           </ul>
-          <address>
+          </div> 
+          <address class="adress">
             <h4 class="adress-title">Contact us</h4>
-            <ul>
+            <ul class="adress-list">
               <li class="adress-item">
                 <a href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
               </li>
@@ -820,18 +823,37 @@
               </li>
             </ul>
           </address>
-        </div>
-
-        <nav class="nav-footer">
-          <div class="footer-bottom">
-            <ul>
-              <li class="nav-item"><a href="#">Home</a></li>
-              <li class="nav-item"><a href="#">How it’s made?</a></li>
-              <li class="nav-item"><a href="#">Chocolate is loved</a></li>
-            </ul>
           </div>
-        </nav>
-      </div>
+          
+        </div>
+         <div class="footer-bottom-side">
+           <nav class="nav-footer">
+            <ul class="nav-footer-list">
+              <li class="nav-item-link">
+                <a  href="#">Home</a></li>
+              <li class="nav-item-link">
+                <a  href="#made">How it’s made?</a></li>
+              <li class="nav-item-link">
+                <a  href="#review">Chocolate is loved</a></li>
+            </ul>
+          </nav>
+          <div class="subscribe-wraper">
+             <label class="subscribe-label">
+              <input
+                name="user-email"
+                class="subscribe-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+            </button>
+          </div>
+        </div>
+   </div>
+       
+
     </footer>
   </body>
 </html>
